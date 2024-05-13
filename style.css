@@ -1,0 +1,160 @@
+.div{
+    text-align: center;
+    text-decoration: underline;
+    background-color: greenyellow;
+}
+.table{
+    background-color: rgb(49, 171, 219);
+    text-align: center;
+    height:60px;
+    width: 700px;
+    border: 5px solid red;
+    margin-left: 320px;
+    border-radius: 10px;
+}
+.div1{
+    background-color: rgb(144, 238, 167);
+    border: 2px solid brown;
+    border-radius: 50px;
+    height: 147px;
+    width: 1580px;
+}
+.div2{
+    background-color: skyblue;
+    border:2px solid rgb(0, 128, 128);
+    border-radius: 10px;
+    height: 70px;
+    width: 400px;
+    margin-left: 70px;
+}
+.div3{
+    background-color: skyblue;
+    border:2px solid green;
+    border-radius: 10px;
+    height: 70px;
+    width: 400px;
+    margin-left: 550px;
+    margin-top: -75px;
+}
+.div4{
+    background-color: skyblue;
+    border:2px solid green;
+    border-radius: 10px;
+    height: 70px;
+    width: 400px;
+    margin-left: 550px;
+}
+.div5{
+    background-color: skyblue;
+    border:2px solid green;
+    border-radius: 10px;
+    height: 70px;
+    width: 400px;
+    margin-left: 1100px;
+    margin-top: -150px;
+}
+.div6{
+    background-color: orange;
+    text-decoration: underline;
+    text-align: center;
+    height: 20px;
+}
+.div7{
+    background-color: rgb(55, 0, 255);
+    border: 2px solid rgb(123, 253, 151);
+    height: 250px;
+}
+.div8{
+    border: 1px solid red;
+    background-color: yellow;
+    text-decoration: underline;
+    color: brown;
+    text-align: center;
+    height: 80px;
+    width: 190px;
+    margin: 80px 1400px 0px 100px;
+    border-radius: 10px;
+}
+.div9{
+    border: 1px solid red;
+    background-color: yellow;
+    text-decoration: underline;
+    color: brown;
+    text-align: center;
+    height: 80px;
+    width: 190px;
+    margin: -82px 140px 0px 500px;
+    border-radius: 10px;
+}
+.div10{
+    border: 1px solid red;
+    background-color: yellow;
+    text-decoration: underline;
+    color: brown;
+    text-align: center;
+    height: 80px;
+    width: 190px;
+    margin: -82px 1400px 0px 900px;
+    border-radius: 10px;
+}
+.div11{
+    border: 1px solid red;
+    background-color: yellow;
+    text-decoration: underline;
+    color: brown;
+    text-align: center;
+    height: 80px;
+    width: 190px;
+    margin: -82px 140px 0px 1300px;
+    border-radius: 10px;
+}
+.parent{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr 100px ;
+        grid-template-rows:70px 108px 150px 50px ;
+        gap: 10px;
+        height: 100vh;
+        text-align: center;
+        font-size: larger;
+}
+.child{
+        border: 3px solid black;
+        background-color: hotpink;
+}
+.box1{
+    grid-column: 1/5;
+    grid-row: 1/2;
+    background-color: brown;
+}
+.box2{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: greenyellow;
+}
+.box3{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: blue;
+}
+.box4{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: blue;
+}
+.box5{
+    grid-column:4/5 ;
+    grid-row: 4/2;
+    background-color: black;
+    text-decoration: underline;
+    color: white;
+}
+.box6{
+    grid-column: 1/4;
+    grid-row: 3/4;
+    background-color: orangered;
+}
+.box7{
+    grid-column: 1/5 ;
+    grid-row: 4/5 ;
+    background-color: skyblue;
+}
